@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    float: left;
+    width: 40%;
+}
+
+
+
+.form-files {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    padding-top: 300px;
+}
+
+img {
+    position: relative;
+}
+
+
+label {
+    color: white;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 5px;
+    padding: 5px 5px;
+    box-sizing: border-box;
+}
+
+.below {
+    padding-bottom: 410px;
+}
+
+#h, legend {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+input {
+    box-sizing: border-box;
+    margin: 15px;
+    padding: 5px;
+    border: 2px solid red;
+    border-radius: 5px;
+    text-align: center;
+}
+
+input[type=email], input[type=password] {
+    margin-left: 50px;
+}
+
+
+.btn {
+    text-align: center;
+    padding: 20px;
+    margin: 40px;
+    background-color: aquamarine;
+}
+
+.btn:hover {
+    background-color: yellowgreen;
+}
+
+button[type=submit] {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: yellow;
+}
